@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sách đổi đời</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/social-btn.css">
+		<link href="css/mobile.css" rel="stylesheet" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/tablet.css" media="(min-width: 767px) and (max-width: 992px">
+		<link href="css/desktop.css" rel="stylesheet" media="(min-width: 767px) and (max-width: 1200px">
+
+		<link rel="stylesheet" type="text/css" href="css/slide-list.css">
+
+		<script type="text/javascript" src="js/slide-list.js"></script>
+
+	</head>
+	<body>
+		<header id="header">
+			<nav id="menu-header" class="navbar navbar-default navbar-fixed-top bg-6" role="navigation">
+				<div class="container">
+					<div class="row">
+						<!-- Phần toggle khi responsive -->
+						<div class="navbar-header">
+							<div class="col-xs-2 col-sm-0 col-md-5 col-lg-5">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="col-xs-8 col-sm-12 col-md-0 col-lg-0">
+								<div class="row">
+									<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+										<a class="navbar-brand" href="index.html">
+											<img src="images/logo.png" class="logo">
+										</a>
+									</div>
+									<div class="col-xs-0 col-sm-8 col-md-8 col-lg-8">
+										<!-- ads-main -->
+										<div class="ads navbar-brand">
+											<img src="images/banner.png">
+										</div>
+										<!-- end-ads-main -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			
+					<!-- danh sách link có trong menu -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav" id="main-menu">
+							<li class="active text-center">
+								<a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">LẬP TRÌNH</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Lập trình c</a></li>
+									<li><a href="#">Lập trình c++</a></li>
+									<li><a href="#">Lập trình java</a></li>
+									<li><a href="#">Lập trình php</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">TIẾNG ANH</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Phương pháp học</a></li>
+									<li><a href="#">Kỹ năng giao tiếp</a></li>
+									<li><a href="#">Tiếng anh cơ bản</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">TRUYỆN BỰA</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">LINUX</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Kali linux</a></li>
+									<li><a href="#">Ubuntu</a></li>
+									<li><a href="#">Cent Os</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<!-- icons mạng xa hội mobile -->
+						<ul class="nav navbar-nav navbar-right social-icons-mobile">
+							<li>
+								<a href="https://www.facebook.com/sachdoidoi123/" target="_blank" title="fanpage Sách đổi đời">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" title="twitter Sách đổi đời">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" title="Youtube Sách đổi đời">
+									<i class="fa fa-youtube" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="search">
+								<div class="sdd_search_form_wrap border-color">
+									<form class="navbar-form sdd_search_form form-inline" role="search">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Search">
+										</div>
+										<button type="submit" class="btn sdd_search_btn">Search</button>
+									</form>
+								</div>
+							</li>
+						</ul>
+						<!-- end icons mạng xã hội mobile -->
+
+						<!-- icons mạng xã hội desktop -->
+						<ul class="nav navbar-nav navbar-right social-icons-desktop">
+							<li>
+								<a href="https://www.facebook.com/sachdoidoi123/" target="_blank" title="fanpage Sách đổi đời">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" title="twitter Sách đổi đời">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" title="Youtube Sách đổi đời">
+									<i class="fa fa-youtube" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="search">
+								<a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search" aria-hidden="true"></i></a>
+								<div class="dropdown-menu sdd_search_form_wrap border-color">
+									<form class="navbar-form sdd_search_form form-inline" role="search">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Search">
+										</div>
+										<!-- <a href="search-page.html" class="btn sdd_search_btn">Search</a> -->
+										<button type="submit" class="btn sdd_search_btn">Search</button>
+									</form>
+								</div>
+							</li>
+						</ul>
+						<!-- end icons mạng xa hội déktop -->
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+			</nav>
+		</header>
+
+		<!-- hiển thị slide -->
+
+			<!-- <div class="col-md-12 text-center"><h3>Product Carousel <span style="color:red"> preview it on actual browser</span></h3></div> -->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<!-- col-md-offset-1 -->
+					<div class="slide-list">
+						<div class="carousel slide" data-ride="carousel" data-type="multi" data-interval="3000" id="slide-list">
+					  		<div class="carousel-inner">
+					    		<div class="item active">
+						      		<div class="col-md-2 col-sm-6 col-xs-12">
+						      			<a href="#" data-toggle="modal" data-target="#lightbox">
+						      				<img src="images/minato1.jpg" class="img-responsive">
+						      			</a>
+						      		</div>
+							    </div>
+							    <div class="item">
+							      	<div class="col-md-2 col-sm-6 col-xs-12">
+							      		<a href="#" data-toggle="modal" data-target="#lightbox">
+							      			<img src="images/1.jpg" class="img-responsive">
+							      		</a>
+							      	</div>
+							    </div>
+							    <div class="item">
+							      	<div class="col-md-2 col-sm-6 col-xs-12">
+							      		<a href="#" data-toggle="modal" data-target="#lightbox">
+							      			<img src="images/minato3.jpg" class="img-responsive">
+							      		</a>
+							      	</div>
+							    </div>
+
+							    <div class="item">
+							      	<div class="col-md-2 col-sm-6 col-xs-12">
+							      		<a href="#" data-toggle="modal" data-target="#lightbox">
+							      			<img src="images/manh2.jpg" class="img-responsive">
+							      		</a>
+							      	</div>
+							    </div>
+
+							    <div class="item">
+							      	<div class="col-md-2 col-sm-6 col-xs-12">
+							      		<a href="#" data-toggle="modal" data-target="#lightbox">
+							      			<img src="images/minato4.jpg" class="img-responsive">
+							      		</a>
+							      	</div>
+							    </div>
+							    <div class="item">
+							      	<div class="col-md-2 col-sm-6 col-xs-12">
+							      		<a href="#" data-toggle="modal" data-target="#lightbox">
+							      			<img src="images/manh3.jpg" class="img-responsive">
+							      		</a>
+							      	</div>
+							    </div>
+							    <div class="item">
+							      	<div class="col-md-2 col-sm-6 col-xs-12">
+							      		<a href="#" data-toggle="modal" data-target="#lightbox">
+							      			<img src="images/minato.png" class="img-responsive">
+							      		</a>
+							      	</div>
+							    </div>
+							    <div class="item">
+							     	 <div class="col-md-2 col-sm-6 col-xs-12">
+							     	 	<a href="#" data-toggle="modal" data-target="#lightbox">
+							     	 		<img src="images/manh.jpg" alt="demo" class="img-responsive">
+							     	 	</a>
+							     	 </div>
+							    </div>
+							</div>
+
+							  <a class="left carousel-control" href="#slide-list" data-slide="prev">
+							  	<i class="glyphicon glyphicon-chevron-left"></i>
+							  </a>
+							  <a class="right carousel-control" href="#slide-list" data-slide="next">
+							  	<i class="glyphicon glyphicon-chevron-right"></i>
+							  </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		<!-- kết thúc hiển thị slide -->
+
+		<div class="container">
+			<div class="row">
+				<!-- sidebar -left -->
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+					<div id="sidebar-left">
+						<div class="menu-sidebar-left">
+							<div class="menu-sidebar">
+								<div class="brand">
+									<p class="text-center">CHỦ ĐỀ</p>
+								</div>
+								<div class="menu-content">
+									<div class="item">
+										<a href="#" class=" menu-content-item" data-toggle="collapse" data-target="#sub-menu-1">
+											<span>
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span class="title">Học tiếng anh</span>
+											</span>
+										</a>
+										<div id="sub-menu-1" class="collapse">
+										    <div class="menu-content-sub-item">
+												<a href="#">Phương pháp</a>
+											</div>
+											<div class="menu-content-sub-item">
+												<a href="#">Khóa học</a>
+											</div>
+											<div class="menu-content-sub-item">
+												<a href="#">Cách đọc</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="#" class=" menu-content-item" data-toggle="collapse" data-target="#sub-menu-2">
+											<span>
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span class="title">Học linux</span>
+											</span>
+										</a>
+										<div id="sub-menu-2" class="collapse">
+										    <div class="menu-content-sub-item">
+												<a href="#">Cơ bản linux</a>
+											</div>
+											<div class="menu-content-sub-item">
+												<a href="#">CentOs</a>
+											</div>
+											<div class="menu-content-sub-item">
+												<a href="#">Ubuntu</a>
+											</div>
+											<div class="menu-content-sub-item">
+												<a href="#">Kali linux</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="#" class=" menu-content-item" data-toggle="collapse" data-target="#sub-menu-3">
+											<span>
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span class="title">Học Lập trình</span>
+											</span>
+										</a>
+										<div id="sub-menu-3" class="collapse">
+											<div class="menu-content-sub-item">
+												<a href="#">Lập trình c</a>
+											</div>
+											<div class="menu-content-sub-item">
+												<a href="#">Lập trình c++</a>
+											</div>
+											<div class="menu-content-sub-item">
+												<a href="#">Lập trình php</a>
+											</div>
+											<div class="menu-content-sub-item">
+												<a href="#">Lập trình java</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="#" class=" menu-content-item" data-toggle="collapse" data-target="#sub-menu-4">
+											<span>
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span class="title">Truyện bựa</span>
+											</span>
+										</a>
+										<div id="sub-menu-4" class="collapse">
+										    <div class="menu-content-sub-item">
+												<a href="#">Tấm cám chuyện tôi kể</a>
+											</div>
+											<div class="menu-content-sub-item">
+												<a href="#">Tây du ký truyện</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- ads -->
+					<div class="panel">
+						<div class="panel-body banner-sidebar">
+							<img src="images/banner-sidebar.jpg" class="banner">
+						</div>
+					</div>
+					<!-- end ads -->
+				</div>
+				<!-- end sidebar -->
+
+				<!-- begin content -->
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+					<div id="content">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="heading-list-post bg-1">
+									<h3 class="title">Phương pháp học tiếng anh của Sách đổi đời</h3>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/tienganh1.jpg">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#"> Nói tiếng Anh, “sai cho chuẩn” ( Phần 2)</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="heading-list-post bg-4">
+									<h3 class="title">Các bài học lập trình</h3>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/cpp.png">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#">C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/cpp.png">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#">C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/cpp.png">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#">C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/cpp.png">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#">C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/cpp.png">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#">C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/cpp.png">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#">C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/cpp.png">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#">C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+								<div class="borderitem">
+									<div class="image-course">
+										<img src="images/cpp.png">
+									</div>
+									<div class="info-course">
+										<p class="title-course title">
+											<a href="#">C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a>
+										</p>
+										<span class="meta-info">
+											<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end content -->
+			</div>
+		</div>
+		
+
+
+		<!-- footer -->
+		<!--  ads cuối content -->
+		<div class="container">
+			<div class="ads">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+						
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+						<img src="images/banner.png" class="wow bounceIn" data-wow-duration="3s" data-wow-delay="0.5s">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+						
+					</div>
+				</div>
+			</div>
+
+			<!-- scroll top -->
+			<div id="btn-scroll-top">
+				<i class="fa fa-arrow-up" aria-hidden="true"></i>
+			</div>
+			<!-- end scroll top -->
+		</div>
+		<!-- kết thúc ads cuối content -->
+		
+		<!-- begin footer -->
+		<footer>
+			<!-- block-inverse -->
+			<div class="block-inverse">
+				<div class="container">
+					<h2 class="sdd-font">Những bức ảnh đẹp nhất thế kỷ!</h2>
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<div class="sdd_module_3">
+								<a href="#" class="thumbnail thumbnail-modal" data-toggle="modal" data-target="#lightbox">
+									<img src="images/manh.jpg">
+								</a>
+								<h4 class="title"><a href="#">Nguyễn Mạnh & sinh nhật Zent group</a></h4>
+								<span class="meta-info">
+									<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									<span> 200</span>
+								</span>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<div class="sdd_module_3">
+								<a href="#" class="thumbnail thumbnail-modal" data-toggle="modal" data-target="#lightbox">
+									<img src="images/minato.png">
+								</a>
+								<h4 class="title"><a href="#">Minato thần tượng của tôi</a></h4>
+								<span class="meta-info">
+									<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									<span> 200</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<div class="sdd_module_3">
+								<a href="#" class="thumbnail thumbnail-modal" data-toggle="modal" data-target="#lightbox">
+									<img src="images/bia.jpg">
+								</a>
+								<h4 class="title"><a href="#">Ảnh đẹp về Uzumaki Minato</a></h4>
+								<span class="meta-info">
+									<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									<span> 200</span>
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					    <div class="modal-dialog">
+					        <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+					        <div class="modal-content">
+					            <div class="modal-body">
+					                <img src="" alt="" />
+					            </div>
+					        </div>
+					    </div>
+					</div>
+
+				</div>
+			</div>
+			<!-- end block-inverse -->
+
+			<!-- block footer 1 -->
+			<div class="service-wrapper">
+				<div class="container-fluid text-center">
+				  	<h2 class="title">DỊCH VỤ</h2>
+				  	<h4>Ngoài việc viết bài trên blog .Chúng tôi cung cấp các dịch vụ về phân tích, thiết kế, xây dựng web</h4>
+				  	<br>
+				  	<div class="row">
+				    	<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					    	<div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-dashboard logo-small"></span>
+						      	<h4 class="title">CUNG CẤP HOSTING</h4>
+						      	<p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					    	<div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-heart logo-small"></span>
+							    <h4 class="title">TƯ VẤN TÌNH YÊU</h4>
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+
+
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+						    <div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-lock logo-small"></span>
+							    <h4 class="title">ỨNG DỤNG</h4>
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+						    <div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-leaf logo-small"></span>
+							    <h4 class="title">THIẾT KẾ WEBSITE</h4>
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+						    <div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-certificate logo-small"></span>
+							    <h4 class="title">SỬ DỤNG CÔNG NGHỆ</h4>      
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					    	<div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-wrench logo-small"></span>
+							    <h4 class="title">TOOL</h4>
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<!-- end block footer 1 -->
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<p>© 2017 | <a href="index.html">sachdoidoi.com</a> | Design by Nguyễn Mạnh</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<ul class="social-icons">
+								<li>
+									<a href="#" class="wow fadeInDown"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#" class="wow fadeInDown"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#" class="wow fadeInDown"><i class="fa fa-youtube"></i></a>
+								</li>
+								<li>
+									<a href="#" class="wow fadeInDown"><i class="fa fa-facebook"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

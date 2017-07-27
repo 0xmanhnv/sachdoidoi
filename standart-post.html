@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Standart post</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/social-btn.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+		<link rel="stylesheet" type="text/css" href="css/standart-post.css">
+		<link rel="stylesheet" type="text/css" href="css/comments.css">
+		<link href="css/mobile.css" rel="stylesheet" media="(max-width: 767px)">
+		<link href="css/desktop.css" rel="stylesheet" media="(min-width: 767px) and (max-width: 1200px">
+		<script type="text/javascript" src="js/standart-post.js"></script>
+		<script type="text/javascript" src="js/menu.js"></script>
+		<script type="text/javascript" src="js/comment.js"></script>
+
+		<link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+		<script type="text/javascript" src="js/search.js"></script>
+		<script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+		<script>
+			new WOW().init();
+		</script>
+	</head>
+
+
+	<body>
+		<!-- begin header -->
+		<header id="header">
+			<nav id="menu-header" class="navbar navbar-default navbar-fixed-top bg-6" role="navigation">
+				<div class="container">
+					<div class="row">
+						<!-- Phần toggle khi responsive -->
+						<div class="navbar-header">
+							<div class="col-xs-2 col-sm-0 col-md-5 col-lg-5">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="col-xs-8 col-sm-12 col-md-0 col-lg-0">
+								<div class="row">
+									<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+										<a class="navbar-brand" href="index.html">
+											<img src="images/logo.png" class="logo">
+										</a>
+									</div>
+									<div class="col-xs-0 col-sm-8 col-md-8 col-lg-8">
+										<!-- ads-main -->
+										<div class="ads navbar-brand">
+											<img src="images/banner.png">
+										</div>
+										<!-- end-ads-main -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			
+					<!-- danh sách link có trong menu -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav" id="main-menu">
+							<li class="active text-center">
+								<a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">LẬP TRÌNH</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Lập trình c</a></li>
+									<li><a href="#">Lập trình c++</a></li>
+									<li><a href="#">Lập trình java</a></li>
+									<li><a href="#">Lập trình php</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">TIẾNG ANH</a>
+								<ul class="dropdown-menu">
+									<li><a href="list-post.html">Phương pháp học</a></li>
+									<li><a href="#">Kỹ năng giao tiếp</a></li>
+									<li><a href="#">Tiếng anh cơ bản</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">TRUYỆN BỰA</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">LINUX</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Kali linux</a></li>
+									<li><a href="#">Ubuntu</a></li>
+									<li><a href="#">Cent Os</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<!-- icons mạng xa hội mobile -->
+						<ul class="nav navbar-nav navbar-right social-icons-mobile">
+							<li>
+								<a href="https://www.facebook.com/sachdoidoi123/" target="_blank" title="fanpage Sách đổi đời">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" title="twitter Sách đổi đời">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" title="Youtube Sách đổi đời">
+									<i class="fa fa-youtube" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="search">
+								<div class="sdd_search_form_wrap border-color">
+									<form class="navbar-form sdd_search_form form-inline" role="search">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Search">
+										</div>
+										<button type="submit" class="btn sdd_search_btn">Search</button>
+									</form>
+								</div>
+							</li>
+						</ul>
+						<!-- end icons mạng xã hội mobile -->
+
+						<!-- icons mạng xã hội desktop -->
+						<ul class="nav navbar-nav navbar-right social-icons-desktop">
+							<li>
+								<a href="https://www.facebook.com/sachdoidoi123/" target="_blank" title="fanpage Sách đổi đời">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" title="twitter Sách đổi đời">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" title="Youtube Sách đổi đời">
+									<i class="fa fa-youtube" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="search">
+								<a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search" aria-hidden="true"></i></a>
+								<div class="dropdown-menu sdd_search_form_wrap border-color">
+									<form class="navbar-form sdd_search_form form-inline" role="search">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Search">
+										</div>
+										<!-- <a href="search-page.html" class="btn sdd_search_btn">Search</a> -->
+										<button type="submit" class="btn sdd_search_btn">Search</button>
+									</form>
+								</div>
+							</li>
+						</ul>
+						<!-- end icons mạng xa hội déktop -->
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+			</nav>
+		</header>
+		<!-- end header -->
+
+		<!-- nội dung chính -->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+					<!-- begin content -->
+					<section id="box-post-content">
+						<div class="post">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="heading-post">
+										<h2 class="title">
+											[Tấm cám chuyện chưa kể] – Phần 4: Chăn trâu chăn ở đồng xa, chăn ở gần nhà làng bắt mất trâu
+										</h2>
+										<span class="meta-info">
+											<span>BY <b>NGUYỄN MẠNH</b> / 4 HOURS AGO / </span>
+												<i class="fa fa-eye" aria-hidden="true"></i>
+											<span> 200</span>
+										</span>
+										<div class="post-sharing-top">
+											<div class="row">
+												<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+													<a class="btn btn-block btn-social btn-pinterest">
+													    <span class="fa fa-pinterest"></span>Pinterest
+													</a>
+												</div>
+												<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+													<a class="btn btn-block btn-social btn-facebook">
+													    <span class="fa fa-facebook"></span>Facebook
+													</a>
+												</div>
+												<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+													<a class="btn btn-block btn-social btn-linkedin">
+													    <span class="fa fa-linkedin"></span>Linkedin
+													</a>
+												</div>
+												<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+													<a class="btn btn-block btn-social btn-google">
+													    <span class="fa fa-google"></span>Google
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<img src="images/tamcamp4.jpg" class="featured-img-post">
+							<span class="post-content">
+								<p>Những ngày sau đó, Tấm lẳng lặng bắt những con vật nhỏ ném xuống giếng, khi thì con gà, khi thì con ếch. Mặt nước càng ngày càng nhiều xương trắng, tanh ngòm.</p>
+
+								<p>Mấy hôm đó trời mưa liên tục, mây đen phủ kín bầu trời. Mẹ của Cám ngồi trong nhà, thị suy nghĩ mông lung.</p>
+
+								<p>Vong linh trong Tấm ngày càng biểu lộ rõ. Phong ấn được ấn vào người Tấm ngày càng yếu đi. Hiện giờ thị cũng chẳng còn cách nào khác ngoài việc lấy Tấm làm bình chứa, để không cho vong ấy ra ngoài. Nếu không có vật giữ, nó sẽ thoả sức hoành hành.</p>
+
+								<p>Nhớ ngày xưa mẹ của Cám và cha của Tấm là một cặp đạo sĩ trừ ma. Trong một lần đi đến một ngôi đền cổ, họ gặp một ác linh. Tương truyền rằng, ác linh này vốn là một thầy ấn người Trung Quốc, được đưa đến để phong ấn các long mạch tại An Nam. Hắn lấy hiệu là Bụt, vốn là kẻ tàn ác, tu luyện tà thuật, lấy xác người và xác động vật làm vật dẫn, để tạo nên những sinh vật kì dị. Trong một lần đụng độ với thánh Gióng, đội quân của hắn không chịu nổi lửa thần của ngựa sắt. Trước khi bị cây gậy sắt màu đen quật vào gãy cổ, hắn kịp thời lập phép thoát hồn. Ám vào cỏ cây sinh linh ở đó mà sống.</p>
+
+								<p>Cuộc chiến giữa hai người và lão Bụt hết sức ác liệt. Cuối cùng, cha của Tấm bị thương. Ác linh tưởng như biết mất. Không ngờ lại bám theo cha Tấm, cuối cùng nhập vào phần hồn của đứa trẻ.</p>
+								<p>Mẹ Tấm chết sau khi sinh Tấm ra. Cha Tấm cũng qua đời không lâu sau đó. Khi đó, mẹ của Cám mới nhận nuôi Tấm, đồng thời cũng là để canh giữ ác linh. Không lâu sau đó, mẹ của Cám nhận nuôi thêm Cám – một đứa trẻ mồ côi trong làng.</p>
+
+								<p>Mấy hôm nay Tấm có biểu hiện lạ. Trong giếng nước sau nhà cũng phát ra yêu khí oan nghiệt. Mẹ Cám phải ngồi án binh bất động. Khi tâm hồn của Tấm bị dao động, ác linh sẽ dễ dàng chiếm lấy.</p>
+
+								<p>Hôm sau trời ngừng mưa. Mẹ Cám gọi tấm ra ngoài, bảo: “Con ơi con! Làng đã bắt đầu cấm đồng rồi đấy. Mai con đi chăn trâu, phải chăn đồng xa, chớ chăn đồng nhà, làng bắt mất trâu”</p>
+
+								<p>Tấm vâng lời.</p>
+
+								<p>Sau khi chắc chắn Tấm đã đi, Cám không có ở nhà, mẹ Cám mới ra giếng ở đằng sau. Thị vặn cổ một con gà, rồi ném xuống giếng.</p>
+
+								<p>Ở dưới giếng, bọt nước bắt đầu xuất hiện. Những chiếc răng nhọn hoắt trồi lên, ngoạm lấy con gà, máu đỏ hoà trong nước.</p>
+
+								<p>Đứng bên trên, người phụ nữ lấy lá bùa mầu vàng, niệm ấn chú, lấy dao cứa vào tay rồi nhỏ lên một vài giọt máu. Máu vừa rơi xuống giấy, khói bốc xì xèo. Thị cuốn lá bùa quanh một túi vải đựng đầy diêm tiêu, miệng niệm chú.</p>
+								<p class="quote text-center">
+									“Thiên linh linh<br/>
+									Địa linh linh<br/>
+									Trời diệt vong linh<br/>
+									Diệt vong diệt bạo”<br/>
+								</p>
+								<p>Nói xong thị thả túi vải xuống giếng.</p>
+
+								<p>Một tiếng nổ lớn vang lên. Sau khi máu bắn tung toé, xương văng khắp nơi, thành giếng bắt đầu lục đục, đất đá xung quanh đổ sập xuống, khói bụi bốc lên.</p>
+
+								<p>Trong thoáng chốc, miệng giếng đã bị lấp.</p>
+
+								<p>Mẹ Cám ho sặc sụa, người không còn chút sức. Mười sáu năm liên tục phải niệm chú phong ấn ác linh, pháp lực suy tàn, nay một phép cỏn con như vậy cũng không thể thực hiện một cách dễ dàng nữa.</p>
+
+								<p>Thị đang quan sát miệng giếng, bỗng linh tính mách bảo có điều không ổn. Thị quay ngoắt ra sau rồi giật mình.</p>
+
+								<p>Đằng sau thị, là Tấm…</p>
+
+								<p>Tấm đang đứng…</p>
+
+								<p>Tấm đang cười.</p>
+							</span>
+
+							<!-- end nội fung bài -->
+							<!--  ads cuối content -->
+							<div class="ads">
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+										<img src="images/banner.png">
+									</div>
+								</div>
+							</div>
+							<!-- kết thúc ads cuối content -->
+
+							<!-- vote bài viết -->
+							<div class="vote text-center">
+								<div class="stars">
+								  <form action="">
+								    <input class="star star-5" id="star-5" type="radio" name="star"/>
+								    <label class="star star-5" for="star-5"></label>
+
+								    <input class="star star-4" id="star-4" type="radio" name="star"/>
+								    <label class="star star-4" for="star-4"></label>
+
+								    <input class="star star-3" id="star-3" type="radio" name="star"/>
+								    <label class="star star-3" for="star-3"></label>
+
+								    <input class="star star-2" id="star-2" type="radio" name="star"/>
+								    <label class="star star-2" for="star-2"></label>
+
+								    <input class="star star-1" id="star-1" type="radio" name="star"/>
+								    <label class="star star-1" for="star-1"></label>
+								  </form>
+								</div>
+							</div>
+							<!-- end vote bài viết -->
+
+							<!-- sharing bottom -->
+							<div class="post-sharing-bottom">
+								<div class="row">
+									<ul class="mbm_social">
+										<li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+											<a class="social-facebook" href="#">
+												<i class="fa fa-facebook"><small>facebook</small></i>
+											<div class="tooltip"><span>facebook</span></div>
+											</a>
+										</li>
+										<li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+											<a class="social-twitter" href="#">
+												<i class="fa fa-twitter"><small>Twitter</small></i>
+											<div class="tooltip"><span>Twitter</span></div>
+											</a>
+										</li>
+										<li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+											<a class="social-google-plus" href="#">
+												<i class="fa fa-google-plus"><small>google +</small></i>
+											<div class="tooltip"><span>google</span></div>
+											</a>
+										</li>
+										<li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+											<a class="social-linkedin" href="#">
+												<i class="fa  fa-linkedin"><small>linkedin</small></i>
+											<div class="tooltip"><span>linkedin</span></div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- end sharing bottom -->
+							<!-- phần thông tin tác giả -->
+						    <div class="row">
+								<div class="col-md-12">
+						            <div class="well well-sm">
+						                <div class="media">
+						                    <a class="thumbnail pull-left" href="#">
+						                        <img class="media-object" src="images/1.jpg">
+						                    </a>
+						                    <div class="media-body">
+						                        <h4 class="media-heading">Nguyễn Mạnh</h4>
+						                		<p><span class="label label-info">888 photos</span> <span class="label label-warning">150 followers</span></p>
+						                        <p>
+						                            <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-comment"></span> Message</a>
+						                            <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-heart"></span> Favorite</a>
+						                            <a href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-ban-circle"></span> Unfollow</a>
+						                        </p>
+						                        <div class="rating">
+													<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+												</div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+							</div>
+							<!-- end thông tin tác giả -->
+							<!-- bình luận -->
+							<div class="sdd_comments">
+								<ul class="nav nav-pills" role="tablist">
+									<li class="nav-item  active">
+										<a class="nav-link" data-toggle="tab" href="#comment-web" role="tab">Bình luận trên website</a></li>
+									<li class="nav-item">
+										<a class="nav-link" data-toggle="tab" href="#comment-facebook" role="tab">Bình luận bằng facebook</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="comment-web" role="tabpanel">
+										<div class="comment-list">
+											<div class="comment">
+												<div class="row">
+													<div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+														<img src="images/avatar1.png" class="avatar thumnail img-rounded">
+													</div>
+													<div class="col-xs-8 col-sm-9 col-md-10 col-lg-10">
+														<span class="nick-comment title">
+														<a href="" class="nick-comment"> Nguyễn Mạnh</a></span>
+														<span class="meta-info">Tháng Sáu 21, 2017 at 9:07 chiều</span>
+														<div class="comment-content">
+															<p>Website này đẹp quá! ahihi</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="comment">
+												<div class="row">
+													<div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+														<img src="images/avatar2.jpg" class="avatar thumnail img-rounded">
+													</div>
+													<div class="col-xs-8 col-sm-9 col-md-10 col-lg-10">
+														<span class="title">
+															<a href="#" class="nick-comment">Ngô Nghĩa</a>
+														</span>
+														<span class="meta-info">Tháng Sáu 21, 2017 at 9:07 chiều</span>
+														<div class="comment-content">
+															<p>Giao diện quá chất!</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<form>
+											<div class="form-group">
+											    <label for="exampleTextarea">Đã đăng nhập bằng tài khoản<span class="quote">Nguyễn Mạnh</span></label>
+											    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+											 </div>
+											<button type="submit" class="btn btn-primary">Đăng bình luận</button>
+										</form>
+									</div>
+									<div class="tab-pane" id="comment-facebook" role="tabpanel">
+										<p>Bình luận facebook</p>
+										
+									</div>
+								</div>
+							</div>
+							<!-- end bình luận -->
+						</div>
+					</section>
+					<!-- end content -->
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<!-- begin sidebar right -->
+					<section id="sidebar-right">
+						<!-- Tranding -->
+						<div class="panel">
+							<div class="panel-heading bg-4 sidebar-heading bg-color">
+								<p class="panel-title title sdd-font">BÀI VIẾT MỚI NHẤT</p>
+							</div>
+							<div class="panel-body">
+								<div class="sdd_module_1 line-bottom">
+									<div class="row">
+										<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+											<img src="images/bai1-cpp.jpg"  class="thumnail">
+										</div>
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<span class="meta-info">
+												<span>4 HOURS AGO / </span>
+													<i class="fa fa-eye" aria-hidden="true"></i>
+												<span> 200</span>
+											</span>
+											<h5 class="title"><a href="#">[ C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a></h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="sdd_module_1 line-bottom">
+									<div class="row">
+										<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+											<img src="images/bai1-cpp.jpg"  class="thumnail">
+										</div>
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<span class="meta-info">
+												<span>4 HOURS AGO / </span>
+													<i class="fa fa-eye" aria-hidden="true"></i>
+												<span> 200</span>
+											</span>
+											<h5 class="title"><a href="#">[ C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a></h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="sdd_module_1 line-bottom">
+									<div class="row">
+										<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+											<img src="images/linux1.png"  class="thumnail">
+										</div>
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<span class="meta-info">
+												<span>4 HOURS AGO / </span>
+													<i class="fa fa-eye" aria-hidden="true"></i>
+												<span> 200</span>
+											</span>
+											<h5 class="title"><a href="#">[Linux] Giao diện phẳng đẹp mắt cho Ubuntu linux</a></h5>
+										</div>
+									</div>
+								</div>
+
+								<div class="sdd_module_1 line-bottom">
+									<div class="row">
+										<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+											<img src="images/bai1-cpp.jpg"  class="thumnail">
+										</div>
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<span class="meta-info">
+												<span>4 HOURS AGO / </span>
+													<i class="fa fa-eye" aria-hidden="true"></i>
+												<span> 200</span>
+											</span>
+											<h5 class="title"><a href="#">[ C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a></h5>
+										</div>
+									</div>
+								</div>
+								<div class="sdd_module_1 line-bottom">
+									<div class="row">
+										<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+											<img src="images/bai1-cpp.jpg"  class="thumnail">
+										</div>
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<span class="meta-info">
+												<span>4 HOURS AGO / </span>
+													<i class="fa fa-eye" aria-hidden="true"></i>
+												<span> 200</span>
+											</span>
+											<h5 class="title"><a href="#">[ C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a></h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end trending -->
+						<div class="panel">
+							<div class="panel-heading bg-2 sidebar-heading bg-color">
+								<p class="panel-title sdd-font">STAY CONNECTED</p>
+							</div>
+							<div class="panel-body">
+								<div class="btn-stayconected">
+									<ul class="mbm_social">
+										<li><a class="social-facebook" href="#">
+											<i class="fa fa-facebook"><small>facebook</small></i>
+											
+											<div class="tooltip"><span>facebook</span></div>
+											</a>
+										</li>
+										<li><a class="social-twitter" href="#">
+											<i class="fa fa-twitter"><small>Twitter</small></i>
+											<div class="tooltip"><span>Twitter</span></div>
+											</a>
+										</li>
+										<li><a class="social-google-plus" href="#">
+											<i class="fa fa-google-plus"><small>google +</small></i>
+											<div class="tooltip"><span>google</span></div>
+											</a>
+										</li>
+										<li><a class="social-linkedin" href="#">
+											<i class="fa  fa-linkedin"><small>linkedin</small></i>
+											<div class="tooltip"><span>linkedin</span></div>
+											</a>
+										</li>
+									</ul>
+								</div>
+
+								<!-- ads -->
+								<div class="banner-sidebar">
+									<img src="images/banner-sidebar.jpg" class="banner">
+								</div>
+								<!-- end ads -->
+
+								<div class="subscribe">
+									<form class="form-inline " id="frm-subscribe" role="form">
+										<div class="form-group ">
+									    	<input type="email" class="form-control" id="mail-subscribe" placeholder="Email">
+									    </div>
+									    <button type="button" class="btn btn-primary" id="btn-subscribe">subscribe</button>
+								    </form>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="panel" id="category">
+							<div class="panel-heading bg-3 sidebar-heading">
+								<p class="panel-title title sdd-font">CHUYÊN MỤC</p>
+							</div>
+							<div class="panel-body">
+								<a href="#" class="title">Lập trình c</a>
+								<a href="#" class="title">Học tiếng anh</a>
+								<a href="#" class="title">Học linux</a>
+								<a href="#" class="title">Học python</a>
+								<a href="#" class="title">Truyện bựa</a>
+								<a href="#" class="title">Tôi đi tán gái</a>
+								<a href="#" class="title">Tutorials</a>
+								<a href="#" class="title">Web and design</a>
+							</div>
+						</div>
+					</section>
+					<!-- end sidebar right -->
+				</div>
+			</div>
+		</div>
+		<!-- kết thúc phần 1 -->
+		<!-- more article -->
+		<div class="panel wow bounceInUp" id="sdd_more_articles" data-wow-duration="2s">
+			<div class="panel-heading bg-3 sidebar-heading">
+				<i class="fa fa-times" aria-hidden="true" id="btn-hide"></i>
+				<p class="panel-title title">Bài viết được xem nhiều</p>
+			</div>
+			<div class="panel-body">
+				<div class="sdd_module_1 border-bottom-dash">
+					<div class="row">
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+							<img src="images/bai1-cpp.jpg"  class="thumnail">
+						</div>
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+							<span class="meta-info">
+								<span>4 HOURS AGO / </span>
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								<span> 200</span>
+							</span>
+							<h5 class="title"><a href="#">[ C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a></h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="sdd_module_1 border-bottom-dash">
+					<div class="row">
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+							<img src="images/bai1-cpp.jpg"  class="thumnail">
+						</div>
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+							<span class="meta-info">
+								<span>4 HOURS AGO / </span>
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								<span> 200</span>
+							</span>
+							<h5 class="title"><a href="#">[ C++ ] Bài 02: Các công đoạn phát triển của một chương trình C++</a></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end more article -->
+
+		<!-- begin footer -->
+		<footer>
+			<!-- block-inverse -->
+			<div class="block-inverse">
+				<div class="container">
+					<h2 class="sdd-font">Những bức ảnh đẹp nhất thế kỷ!</h2>
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<div class="sdd_module_3">
+								<a href="#" class="thumbnail thumbnail-modal" data-toggle="modal" data-target="#lightbox">
+									<img src="images/manh.jpg">
+								</a>
+								<h4 class="title"><a href="#">Nguyễn Mạnh & sinh nhật Zent group</a></h4>
+								<span class="meta-info">
+									<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									<span> 200</span>
+								</span>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<div class="sdd_module_3">
+								<a href="#" class="thumbnail thumbnail-modal" data-toggle="modal" data-target="#lightbox">
+									<img src="images/minato.png">
+								</a>
+								<h4 class="title"><a href="#">Minato thần tượng của tôi</a></h4>
+								<span class="meta-info">
+									<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									<span> 200</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<div class="sdd_module_3">
+								<a href="#" class="thumbnail thumbnail-modal" data-toggle="modal" data-target="#lightbox">
+									<img src="images/minato.jpg">
+								</a>
+								<h4 class="title"><a href="#">Ảnh đẹp về Uzumaki Minato</a></h4>
+								<span class="meta-info">
+									<span>BY NGUYỄN MẠNH / 4 HOURS AGO / </span>
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									<span> 200</span>
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					    <div class="modal-dialog">
+					        <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+					        <div class="modal-content">
+					            <div class="modal-body">
+					                <img src="" alt="" />
+					            </div>
+					        </div>
+					    </div>
+					</div>
+
+				</div>
+			</div>
+			<!-- end block-inverse -->
+
+			<!-- block footer 1 -->
+			<div class="service-wrapper">
+				<div class="container-fluid text-center">
+				  	<h2 class="title sdd-font">DỊCH VỤ</h2>
+				  	<h4 class="sdd-font">Ngoài việc viết bài trên blog .Chúng tôi cung cấp các dịch vụ về phân tích, thiết kế, xây dựng web</h4>
+				  	<br>
+				  	<div class="row">
+				    	<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					    	<div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-dashboard logo-small"></span>
+						      	<h4 class="title">CUNG CẤP HOSTING</h4>
+						      	<p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					    	<div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-heart logo-small"></span>
+							    <h4 class="title">TƯ VẤN TÌNH YÊU</h4>
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+
+
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+						    <div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-lock logo-small"></span>
+							    <h4 class="title">ỨNG DỤNG</h4>
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+						    <div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-leaf logo-small"></span>
+							    <h4 class="title">THIẾT KẾ WEBSITE</h4>
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+						    <div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-certificate logo-small"></span>
+							    <h4 class="title">SỬ DỤNG CÔNG NGHỆ</h4>      
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+
+					    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					    	<div class="content-sub-service">
+					    		<span class="glyphicon glyphicon-wrench logo-small"></span>
+							    <h4 class="title">TOOL</h4>
+							    <p>Lorem ipsum dolor sit amet..</p>
+					    	</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<!-- end block footer 1 -->
+			<div id="footer">
+				<div class="container">
+
+					<!-- scroll top -->
+					<div id="btn-scroll-top">
+						<i class="fa fa-arrow-up" aria-hidden="true"></i>
+					</div>
+					<!-- end scroll top -->
+
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<p>© 2017 | <a href="index.html">sachdoidoi.com</a> | Design by Nguyễn Mạnh</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<ul class="social-icons">
+								<li>
+									<a href="#" class="wow fadeInDown"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#" class="wow fadeInDown"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#" class="wow fadeInDown"><i class="fa fa-youtube"></i></a>
+								</li>
+								<li>
+									<a href="#" class="wow fadeInDown"><i class="fa fa-facebook"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

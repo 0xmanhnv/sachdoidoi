@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.sdd_comments {
+	margin-top:  20px;
+	margin-bottom: 20px;
+}
+.comment-list {
+	margin-top:  20px;
+	margin-bottom: 20px;
+}
+.comment-list .comment {
+	list-style: none;
+    margin-left: 0;
+    padding-bottom: 13px;
+    border-bottom: 1px dashed #ededed;
+    margin-bottom: 21px;
+}
+	.comment .avatar {
+
+	}
+	.comment .comment-content {
+		
+	}
+
+
+
+
